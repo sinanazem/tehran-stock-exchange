@@ -1,10 +1,12 @@
+<div>
+    <img src="https://cdni.iconscout.com/illustration/premium/thumb/stock-market-growth-5788121-4849094.png?f=webp" alt="Nobel Prize" width="350" align="left" hspace="10">
+    
+</div>
 
-# Tehran Stock Exchange Data Pipeline Project
 
-## Overview
-
+## Tehran Stock Exchange Data Pipeline Project
 This project focuses on creating a data pipeline to crawl the watchlist data from the Tehran Stock Exchange (TSE), transforming it, and loading it into a data lake for further analysis. The pipeline is designed to automate the process of collecting stock data, ensuring it is structured appropriately, and making it readily available for analytical purposes.
-
+<br><br><br><br><br><br><br>
 ## Table of Contents
 
 - [Getting Started](#getting-started)
