@@ -27,9 +27,8 @@ This project focuses on creating a data pipeline to crawl the watchlist data fro
 
 Before running the project, ensure you have the following installed:
 
-- Python (version x.x.x)
+- Python (version 3.x.x)
 - Pip (package manager)
-- [Additional prerequisites]
 
 ### Installation
 
@@ -71,7 +70,3 @@ Customize the project configuration in the `config.yaml` file. Adjust parameters
 ## Contributing
 
 Contributions are welcome! If you have ideas for improvements or find any issues, please open an issue or submit a pull request.
-
----
-
-Feel free to modify and expand this template based on the specifics of your project. Add more details about the data lake structure, analysis methods, and any other relevant information.
