@@ -48,38 +48,20 @@ Before running the project, ensure you have the following installed:
 
 ## Usage
 
-### Crawling Data
+### Export PYTHONPATH
 
-To crawl watchlist data from the Tehran Stock Exchange, run the following command:
+run the following command:
 
 ```bash
-python crawl.py
+export PYTHONPATH=${PWD}
 ```
 
-This will fetch the latest data and store it locally.
+### Crawl
 
-### Transforming Data
-
-Transform the raw data into a structured format using the following command:
+run the following command:
 
 ```bash
-python transform.py
-```
-
-### Loading Data into Data Lake
-
-Load the transformed data into the data lake:
-
-```bash
-python load.py
-```
-
-### Analysis
-
-Perform analysis on the data using [your analysis tools]:
-
-```bash
-python analyze.py
+python src/run.py --startdate 1402-07-01 --enddate 1402-07-10  --delete "True"
 ```
 
 ## Configuration
