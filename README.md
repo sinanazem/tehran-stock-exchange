@@ -36,7 +36,7 @@ Before running the project, ensure you have the following installed:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/tehran-stock-exchange.git
+    git clone https://github.com/sinanazem/tehran-stock-exchange.git
     cd tehran-stock-exchange
     ```
 
@@ -89,10 +89,6 @@ Customize the project configuration in the `config.yaml` file. Adjust parameters
 ## Contributing
 
 Contributions are welcome! If you have ideas for improvements or find any issues, please open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the [Your License] - see the [LICENSE.md](LICENSE.md) file for details.
 
 ---
 
