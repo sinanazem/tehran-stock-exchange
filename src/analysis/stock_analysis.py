@@ -62,7 +62,7 @@ class StockAnalysis:
         return self.data
     
 if __name__ == "__main__":
-    obj = StockAnalysis("/mnt/c/Users/user/OneDrive/Desktop/data-engineer-roadmap/projects/Filager/src/datalake")
+    obj = StockAnalysis("src/datalake")
     print(obj.get_top_volume_stock_symbols())
     print(obj.get_top_volume_stock_symbols())
     print(obj.get_statistical_analysis_by_symbol("دي"))
