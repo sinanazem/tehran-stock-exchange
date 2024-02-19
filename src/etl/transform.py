@@ -6,7 +6,7 @@ from tqdm import tqdm
 from loguru import logger
 from src.utils import extract_date_from_file_path
 
-logger.add("transform.log", level="INFO", format="{time} {level} {message}", rotation="1 day", retention="7 days")
+# logger.add("transform.log", level="INFO", format="{time} {level} {message}", rotation="1 day", retention="7 days")
 
 def change_format_to_csv(stage_path, datalake_path):
     
